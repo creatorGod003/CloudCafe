@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CloudCafe/static/css/main.8f057f18.css",
+    "main.js": "/CloudCafe/static/js/main.f296bebd.js",
+    "static/js/787.879fb6af.chunk.js": "/CloudCafe/static/js/787.879fb6af.chunk.js",
+    "static/media/primeicons.svg": "/CloudCafe/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/primeicons.eot": "/CloudCafe/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/CloudCafe/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/CloudCafe/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/primeicons.woff2": "/CloudCafe/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/color.png": "/CloudCafe/static/media/color.6441e63a57ccc5105bad.png",
+    "index.html": "/CloudCafe/index.html",
+    "main.8f057f18.css.map": "/CloudCafe/static/css/main.8f057f18.css.map",
+    "main.f296bebd.js.map": "/CloudCafe/static/js/main.f296bebd.js.map",
+    "787.879fb6af.chunk.js.map": "/CloudCafe/static/js/787.879fb6af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f057f18.css",
+    "static/js/main.f296bebd.js"
+  ]
+}
