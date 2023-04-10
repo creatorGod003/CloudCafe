@@ -20,7 +20,7 @@ To get started with this project, you'll need to do the following:
 Features
 The Cloud Cafe Homepage has the following features:
 
-1. **Viewing the top 5 highest-rated cafes:** Users can view the top 5 highest-rated cafes on the homepage. The cafes are ranked based on their average rating.
+1. **Viewing the top 4 highest-rated cafes:** Users can view the top 4 highest-rated cafes on the homepage. The cafes are ranked based on their average rating.
 
 2. **Adding new cafes:** Users can add new cafes to the database by filling out a form on the homepage. The new cafe will be added to the Firestore database and will be displayed on the homepage.
 
