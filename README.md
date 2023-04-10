@@ -1,7 +1,7 @@
 
 # Project Title
 
-This is a project for brushing up my skills on Firestore. The goal of this project is to create a cloud cafe homepage where users can view the top 5 highest-rated cafes, add new cafes, and delete existing cafes.
+This is a project for brushing up my skills on Firestore. The goal of this project is to create a cloud cafe homepage where users can view the top 4 highest-rated cafes, add new cafes, and delete existing cafes.
 
 
 
