@@ -11,7 +11,7 @@ import "primeicons/primeicons.css";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-[100vh] area">
+    <div className="flex justify-center items-center area">
       <ul className="circles z-0">
         <li></li>
         <li></li>

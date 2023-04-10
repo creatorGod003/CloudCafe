@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import {
   collection,
   addDoc,
@@ -19,11 +19,10 @@ const CloudCafe = () => {
 
   const [title, setTitle] = useState("");
   const [city, setCity] = useState("");
-  const [rating, setRating] = useState();
+  const [rating, setRating] = useState(0);
 
   const [typeShow, setTypeShow] = useState("showAll");
   const [disableDelete, setDisableDelete] = useState(false);
-
 
   async function handleOrderData(e) {
     setTypeShow("ordershow");
@@ -84,13 +83,13 @@ const CloudCafe = () => {
   console.log("rendered");
 
   return (
-    <div className="border-blue-600 border w-[60vw] h-[80vh] rounded grid grid-rows-[80px, 1fr, 100px] z-10 bg-white">
+    <div className="border-blue-600 border w-[100vw] h-[100vh] rounded grid grid-rows-[80px, 1fr, 100px] z-10 bg-white opacity-50">
       <header className="text-2xl text-center my-5 place-self-center inline-block border-b-2 border-blue-700 font-serif">
         Cloud Café
       </header>
       <main className="my-auto">
         <div>
-          <div className="grid grid-rows-2 grid-cols-3 place-items-center my-1 border-black">
+          <div className="grid grid-rows-4 grid-cols-1 md:grid-rows-2 md:grid-cols-3 place-items-center my-1 border-black">
             <input
               type="text"
               placeholder="title"
@@ -113,7 +112,7 @@ const CloudCafe = () => {
               onChange={(e) => setRating(e.target.value)}
             />
             <button
-              className="bg-blue-500 text-white w-15 h-8 p-1 rounded cursor-pointer hover:border-black hover:border-2 hover:bg-white hover:text-black transition-all col-span-3"
+              className="bg-blue-500 text-white w-15 h-8 p-1 rounded cursor-pointer hover:border-black hover:border-2 hover:bg-white hover:text-black transition-all md:col-span-3"
               onClick={handleAddData}
             >
               Add Cafe
@@ -143,7 +142,8 @@ const CloudCafe = () => {
                   <p>{cafe[1].city}</p>
                   <Rating value={cafe[1].rating} readOnly cancel={false} />
                   <button
-                    className="hover:shadow-sm hover:shadow-black p-1" disabled={disableDelete}
+                    className="hover:shadow-sm hover:shadow-black p-1"
+                    disabled={disableDelete}
                     onClickCapture={(e) => {
                       console.log(e.target.parentElement.id);
                       if (e.target.tagName === "svg") {
@@ -191,7 +191,7 @@ const CloudCafe = () => {
           </div>
         </div>
       </main>
-      <footer className="grid place-items-center grid-rows-1 grid-cols-2 m-5">
+      <footer className="grid place-items-center grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 m-5">
         <button
           className="bg-blue-500 text-white w-20 h-10 px-3 py-2 rounded cursor-pointer hover:border-black hover:border-2 hover:bg-white hover:text-black box-border transition-all"
           onClick={handleShowData}
