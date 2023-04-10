@@ -83,7 +83,7 @@ const CloudCafe = () => {
   console.log("rendered");
 
   return (
-    <div className="border-blue-600 border w-[100vw] h-[100vh] rounded grid grid-rows-[80px, 1fr, 100px] z-10 bg-white opacity-50">
+    <div className="border-blue-600 border w-[98vw] h-[90vh] md:w-[80vw] md:h-[80vh] rounded grid grid-rows-[80px, 1fr, 100px] z-10 bg-white">
       <header className="text-2xl text-center my-5 place-self-center inline-block border-b-2 border-blue-700 font-serif">
         Cloud Café
       </header>
