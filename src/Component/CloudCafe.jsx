@@ -131,11 +131,11 @@ const CloudCafe = () => {
             </p>
           </div>
 
-          <div className="overflow-y-auto h-[200px] grid grid-rows-1 grid-cols-[1fr,1fr,1fr,50px] place-items-center my-2">
+          <div className="overflow-y-auto h-[200px] grid grid-rows-1 grid-cols-[1fr, 1fr, 1fr, 100px] place-items-center my-2">
             {allcafeInfo.map((cafe, index) => {
               return (
                 <div
-                  className=""
+                  className="grid grid-rows-1 grid-cols-4 place-items-center my-2"
                   key={cafe[0]}
                 >
                   <p>{cafe[1].title}</p>
