@@ -84,12 +84,12 @@ const CloudCafe = () => {
 
   return (
     <div className="border-blue-600 border w-[98vw] h-[90vh] md:w-[80vw] md:h-[80vh] rounded grid grid-rows-[80px, 1fr, 100px] z-10 bg-white">
-      <header className="text-2xl text-center my-5 place-self-center inline-block border-b-2 border-blue-700 font-serif">
+      <header className="text-2xl text-center my-2 place-self-center inline-block border-b-2 border-blue-700 font-serif">
         Cloud Café
       </header>
       <main className="my-auto">
         <div>
-          <div className="grid grid-rows-4 grid-cols-1 md:grid-rows-2 md:grid-cols-3 place-items-center my-1 border-black">
+          <div className="grid grid-rows-4 grid-cols-1 md:grid-rows-1 md:grid-cols-[1fr,1fr,1fr,150px] place-items-center my-1 border-black">
             <input
               type="text"
               placeholder="title"
@@ -112,14 +112,14 @@ const CloudCafe = () => {
               onChange={(e) => setRating(e.target.value)}
             />
             <button
-              className="bg-blue-500 text-white w-15 h-8 p-1 rounded cursor-pointer hover:border-black hover:border-2 hover:bg-white hover:text-black transition-all md:col-span-3"
+              className="bg-blue-500 text-white w-15 h-8 p-1 rounded cursor-pointer hover:border-black hover:border-2 hover:bg-white hover:text-black transition-all"
               onClick={handleAddData}
             >
               Add Cafe
             </button>
           </div>
 
-          <div className="grid grid-rows-1 grid-cols-4 place-items-center my-2 ">
+          <div className="grid grid-rows-1 grid-cols-[1fr,1fr,1fr,40px] md:grid-cols-[1fr,1fr,1fr,150px] place-items-center my-2 ">
             <p className="font-serif text-lg border-b-2 border-blue-500">
               Title
             </p>
@@ -131,11 +131,11 @@ const CloudCafe = () => {
             </p>
           </div>
 
-          <div className="overflow-y-auto h-[200px] grid grid-rows-1 grid-cols-[1fr, 1fr, 1fr, 100px] place-items-center my-2">
+          <div className="my-2">
             {allcafeInfo.map((cafe, index) => {
               return (
                 <div
-                  className="grid grid-rows-1 grid-cols-4 place-items-center my-2"
+                  className="grid grid-rows-1 grid-cols-[1fr,1fr,1fr,40px] md:grid-cols-[1fr,1fr,1fr,150px] place-items-center my-2"
                   key={cafe[0]}
                 >
                   <p>{cafe[1].title}</p>
