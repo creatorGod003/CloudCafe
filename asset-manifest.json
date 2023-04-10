@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CloudCafe/static/css/main.ede00cd2.css",
-    "main.js": "/CloudCafe/static/js/main.2a352ae2.js",
+    "main.css": "/CloudCafe/static/css/main.d726a01c.css",
+    "main.js": "/CloudCafe/static/js/main.7ec8fe01.js",
     "static/js/787.879fb6af.chunk.js": "/CloudCafe/static/js/787.879fb6af.chunk.js",
     "static/media/primeicons.svg": "/CloudCafe/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/primeicons.eot": "/CloudCafe/static/media/primeicons.d44157bdfa026dc877af.eot",
@@ -10,12 +10,12 @@
     "static/media/primeicons.woff2": "/CloudCafe/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/color.png": "/CloudCafe/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/CloudCafe/index.html",
-    "main.ede00cd2.css.map": "/CloudCafe/static/css/main.ede00cd2.css.map",
-    "main.2a352ae2.js.map": "/CloudCafe/static/js/main.2a352ae2.js.map",
+    "main.d726a01c.css.map": "/CloudCafe/static/css/main.d726a01c.css.map",
+    "main.7ec8fe01.js.map": "/CloudCafe/static/js/main.7ec8fe01.js.map",
     "787.879fb6af.chunk.js.map": "/CloudCafe/static/js/787.879fb6af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ede00cd2.css",
-    "static/js/main.2a352ae2.js"
+    "static/css/main.d726a01c.css",
+    "static/js/main.7ec8fe01.js"
   ]
 }
