@@ -5,7 +5,6 @@ This is a project for brushing up my skills on Firestore. The goal of this proje
 
 ## Features
 
-Features
 The Cloud Cafe Homepage has the following features:
 
 1. **Viewing the top 4 highest-rated cafes:** Users can view the top 4 highest-rated cafes on the homepage. The cafes are ranked based on their average rating.
