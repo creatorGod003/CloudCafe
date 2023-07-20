@@ -3,18 +3,6 @@
 
 This is a project for brushing up my skills on Firestore. The goal of this project is to create a cloud cafe homepage where users can view the top 4 highest-rated cafes, add new cafes, and delete existing cafes.
 
-
-
-## Getting Started
-
-To get started with this project, you'll need to do the following:
-
-1. Clone the repository to your local machine.
-2. Set up a Firestore database and configure your Firebase project credentials in a .env file.
-3. Install the necessary dependencies using npm install.
-4. Run the project using npm start.
-
-
 ## Features
 
 Features
